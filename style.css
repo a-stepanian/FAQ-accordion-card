@@ -99,7 +99,7 @@ hr {
     }
     main {
         width: 735px;
-        height: 408px;
+        min-height: 408px;
         flex-direction: row;
         align-items: flex-start;
         padding: 0;
