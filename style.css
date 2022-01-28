@@ -93,7 +93,7 @@ hr {
     padding-bottom: 15px;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 800px) {
     body {
         align-items: center;
     }
@@ -131,9 +131,11 @@ hr {
         transform: scale(0.78);
     }
     .desktopBox {
+        z-index: 1;
         display: block;
-        position: fixed;
-        right: 620px;
+        position: absolute;
+        
+        transform: scale(0.8) translate(-116px, 180px);
     }
     h1 {
         margin: 0px 0 10px 0;
