@@ -20,6 +20,14 @@ main {
     align-items: center;
     padding: 20px 20px 40px 20px;
 }
+.shadow {
+    position: fixed;
+    transform: scale(0.8) translateY(-40px);
+}
+.mobileImg {
+    position: absolute;
+    transform: scale(0.32) translateY(-810px);
+}
 h1 {
     margin: 85px 0 10px 0;
     font-size: 25px;
