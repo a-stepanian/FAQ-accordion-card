@@ -35,12 +35,16 @@ section {
 .question {
     padding: 15px 0 15px 0;
 }
+.question:hover {
+    cursor: pointer;
+}
 .clicked {
     color: hsl(238, 29%, 16%);
     font-weight: 900;
 }
 .arrow {
     transform: scale(.8);
+    transition: .2s;
 }
 .flip {
     transform: rotate(180deg) scale(.8);
@@ -53,6 +57,7 @@ hr {
 .answer {
     height: 0;
     opacity: 0;
+    transition: .2s;
 }
 .expand {
     color: hsl(240, 6%, 50%);
