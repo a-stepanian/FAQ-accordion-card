@@ -18,21 +18,32 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
 }
 h1 {
     margin: 85px 0 10px 0;
     font-size: 25px;
+    color: hsl(238, 29%, 16%);
 }
 section {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 10px;
+    font-size: 10.5px;
 }
 .question {
     padding: 15px 0 15px 0;
+}
+.clicked {
+    color: hsl(238, 29%, 16%);
+    font-weight: 900;
+}
+.arrow {
+    transform: scale(.8);
+}
+.flip {
+    transform: rotate(180deg) scale(.8);
 }
 hr {
     width: 100%;
@@ -42,4 +53,10 @@ hr {
 .answer {
     height: 0;
     opacity: 0;
+}
+.expand {
+    color: hsl(240, 6%, 50%);
+    height: auto;
+    opacity: 1;
+    padding-bottom: 15px;
 }
