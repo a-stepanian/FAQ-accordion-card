@@ -19,19 +19,22 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 20px 20px 40px 20px;
+    color: hsl(238, 29%, 16%);
+    position: relative;
 }
 .shadow {
-    position: fixed;
-    transform: scale(0.8) translateY(-40px);
+    position: absolute;
+    top: -11px;
+    transform: scale(0.78);
 }
 .mobileImg {
     position: absolute;
-    transform: scale(0.32) translateY(-810px);
+    top: -114px;
+    transform: scale(0.72);
 }
 h1 {
     margin: 85px 0 10px 0;
     font-size: 25px;
-    color: hsl(238, 29%, 16%);
 }
 section {
     width: 100%;
@@ -45,6 +48,7 @@ section {
 }
 .question:hover {
     cursor: pointer;
+    color: hsl(14, 88%, 65%);
 }
 .clicked {
     color: hsl(238, 29%, 16%);
