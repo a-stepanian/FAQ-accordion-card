@@ -29,20 +29,20 @@ https://a-stepanian.github.io/FAQ-accordion-card/
 ### Screenshot
 Desktop
 
-![](./screenshot.jpg)
+![](./screenshots/screenshot.jpg)
 
 Mobile
 
-![](./mobile.jpg)
+<img src="./screenshots/mobile.jpg" alt="drawing" width="300"/>
 
 Hover Effect
 
-![](./hover.jpg)
+<img src="./screenshots/hover.jpg" alt="drawing" width="500"/>
 
 Accordion Effect
 
-![](./expand.jpg)
-![](./expand2.jpg)
+<img src="./screenshots/expand2.jpg" alt="drawing" width="300"/>
+<img src="./screenshots/expand.jpg" alt="drawing" width="500"/>
 
 ## My process
 
